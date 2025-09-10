@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lordelo Vitor Developer</title>
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Fontes Google: Montserrat (títulos), Open Sans (texto), Fira Code (código) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400&family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===================== NAVBAR FIXA ===================== -->
+    <header class="barra-navegacao" id="barra-navegacao">
+        <div class="coluna-logo">
+            <!-- Ícone menu hamburguer -->
+            <button class="botao-hamburguer" aria-label="Abrir menu" aria-controls="menu-mobile" aria-expanded="false">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828859.png" alt="Abrir menu">
+            </button>
+            <!-- Logo -->
+            <a href="#secao-principal" class="link-logo" aria-label="Ir para início">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Logo do desenvolvedor" class="imagem-logo"/>
+            </a>
+        </div>
+
+        <div class="coluna-menu">
+            <nav class="menu-navegacao" aria-label="Navegação principal">
+                <ul class="lista-menu" id="menu-principal">
+                    <li><a href="#secao-principal">Início</a></li>
+                    <li><a href="#secao-sobre">Sobre Mim</a></li>
+                    <li><a href="#secao-tecnologias">Tecnologias</a></li>
+                    <li><a href="#secao-portfolio">Portfólio</a></li>
+                    <li><a href="#secao-apps">Apps</a></li>
+                    <li><a href="#secao-contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="coluna-acao">
+            <a href="#secao-contatos" class="botao-contato">Contatos</a>
+        </div>
+    </header>
+
+    <div class="offset-navbar" aria-hidden="true"></div>
+
+    <!-- ===================== MENU MOBILE ===================== -->
+    <nav id="menu-mobile" class="menu-mobile" aria-label="Menu móvel">
+        <div class="menu-mobile-conteudo">
+            <button class="botao-fechar-mobile" aria-label="Fechar menu">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828778.png" alt="Fechar menu">
+            </button>
+            <ul class="lista-menu-mobile" id="menu-mobile-lista"></ul>
+        </div>
+    </nav>
+
+    <!-- ===================== SEÇÃO PRINCIPAL ===================== -->
+    <main>
+        <section id="secao-principal" class="secao tela-cheia">
+            <div class="conteudo-centro">
+                <div class="texto-lateral esquerda">
+                    <h2 class="titulo-chaves">&lt;dev&gt;</h2>
+                    <p>Anos de experiência em Delphi e SQL, criando soluções sólidas para negócios.</p>
+                </div>
+                <div class="area-foto">
+                    <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Avatar do desenvolvedor"/>
+                </div>
+                <div class="texto-lateral direita">
+                    <h2 class="titulo-chaves">&lt;coder&gt;</h2>
+                    <p>Agora em 2025, expandindo para o web com HTML, CSS, JavaScript e Python.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SEÇÃO SOBRE ===================== -->
+        <section id="secao-sobre" class="secao tela-cheia">
+            <div class="sobre-conteudo">
+                <div class="sobre-topo">
+                    <div class="sobre-bloco-texto">
+                        <h2 class="titulo-secao grande">Sobre Mim</h2>
+                        <p>Sou desenvolvedor fullstack com anos de experiência em Delphi e SQL, criando sistemas robustos e de alto desempenho para o ambiente corporativo.</p>
+                        <p>Em 2025, estou expandindo minha atuação para o desenvolvimento web, explorando HTML, CSS, JavaScript e Python para construir aplicações modernas, escaláveis e integradas.</p>
+                    </div>
+                    <div class="sobre-foto-grande">
+                        <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Foto do desenvolvedor"/>
+                    </div>
+                </div>
+                <div class="sobre-base">
+                    <div class="sobre-coluna habilidades">
+                        <h3 class="subtitulo-secao">Skills</h3>
+                        <ul class="lista-pontos">
+                            <li>Resolução de Problemas</li>
+                            <li>Aprendizado Contínuo</li>
+                            <li>Trabalho em Equipe</li>
+                            <li>Organização</li>
+                        </ul>
+                    </div>
+                    <div class="sobre-coluna diferenciais">
+                        <h3 class="subtitulo-secao">O que me diferencia</h3>
+                        <ul class="lista-pontos">
+                            <li>Experiência sólida com grande bagagem de lógica em sistemas desktop corporativos</li>
+                            <li>Visão completa do ciclo de desenvolvimento (UI + lógica + banco)</li>
+                            <li>Foco em código limpo, escalável e eficiente</li>
+                            <li>Em constante evolução para o mundo fullstack web</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SEÇÃO TECNOLOGIAS ===================== -->
+        <section id="secao-tecnologias" class="secao tela-cheia">
+            <div class="conteudo-largo tecnologias-conteudo">
+                <h2 class="titulo-secao">Tecnologias</h2>
+                <div class="lista-tecnologias">
+                    <div class="item-tecnologia"><img src="https://seeklogo.com/images/D/delphi-logo-5F7E2F733C-seeklogo.com.png" alt="Delphi"><span>DELPHI</span></div>
+                    <div class="item-tecnologia"><img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" alt="SQL"><span>SQL / DB</span></div>
+                    <div class="item-tecnologia"><img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="HTML5"><span>HTML5</span></div>
+                    <div class="item-tecnologia"><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS"><span>CSS</span></div>
+                    <div class="item-tecnologia"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript"><span>JAVASCRIPT</span></div>
+                    <div class="item-tecnologia"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python"><span>PYTHON</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SEÇÃO PORTFÓLIO ===================== -->
+        <section id="secao-portfolio" class="secao tela-cheia">
+            <div class="conteudo-largo portfolio-conteudo">
+                <h2 class="titulo-secao">Portfólio</h2>
+                <div class="lista-portfolio">
+                    <div class="card-portfolio"><img src="https://via.placeholder.com/400x400.png?text=Projeto+1" alt="Projeto 1"><p>PORTFÓLIO 1</p></div>
+                    <div class="card-portfolio"><img src="https://via.placeholder.com/400x400.png?text=Projeto+2" alt="Projeto 2"><p>PORTFÓLIO 2</p></div>
+                    <div class="card-portfolio"><img src="https://via.placeholder.com/400x400.png?text=Projeto+3" alt="Projeto 3"><p>PORTFÓLIO 3</p></div>
+                    <div class="card-portfolio"><img src="https://via.placeholder.com/400x400.png?text=Projeto+4" alt="Projeto 4"><p>PORTFÓLIO 4</p></div>
+                    <div class="card-portfolio"><img src="https://via.placeholder.com/400x400.png?text=Projeto+5" alt="Projeto 5"><p>PORTFÓLIO 5</p></div>
+                    <div class="card-portfolio"><img src="https://via.placeholder.com/400x400.png?text=Projeto+6" alt="Projeto 6"><p>PORTFÓLIO 6</p></div>
+                    <div class="card-portfolio"><img src="https://via.placeholder.com/400x400.png?text=Projeto+7" alt="Projeto 7"><p>PORTFÓLIO 7</p></div>
+                    <div class="card-portfolio"><img src="https://via.placeholder.com/400x400.png?text=Projeto+8" alt="Projeto 8"><p>PORTFÓLIO 8</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SEÇÃO APPS ===================== -->
+        <section id="secao-apps" class="secao tela-cheia">
+            <div class="conteudo-largo apps-conteudo">
+                <h2 class="titulo-secao">Apps</h2>
+                <div class="lista-apps">
+                    <div class="card-app"><img src="https://cdn-icons-png.flaticon.com/512/833/833524.png" alt="App 1"><span>APP 1</span></div>
+                    <div class="card-app"><img src="https://cdn-icons-png.flaticon.com/512/833/833524.png" alt="App 2"><span>APP 2</span></div>
+                    <div class="card-app"><img src="https://cdn-icons-png.flaticon.com/512/833/833524.png" alt="App 3"><span>APP 3</span></div>
+                    <div class="card-app"><img src="https://cdn-icons-png.flaticon.com/512/833/833524.png" alt="App 4"><span>APP 4</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SEÇÃO CONTATOS ===================== -->
+        <section id="secao-contatos" class="secao tela-cheia">
+            <div class="conteudo-largo contatos-container">
+                <div class="cabecalho-contatos texto-central">
+                    <h2 class="titulo-secao grande">CONTATOS</h2>
+                </div>
+                <div class="contatos-grid">
+                    <!-- Formulário -->
+                    <div class="contato-card">
+                        <h3>Envie uma mensagem</h3>
+                        <form id="form-contato">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+                            <button type="submit" class="botao-whatsapp">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                    <!-- Informações de contato -->
+                    <div class="contato-card">
+                        <h3>Informações de Contato</h3>
+                        <div class="info-item">
+                            <div class="info-topo">
+                                <img src="https://cdn-icons-png.flaticon.com/512/159/159832.png" alt="Telefone">
+                                <span>Telefone:</span>
+                            </div>
+                            <p>+55 (71) 99995-9970</p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-topo">
+                                <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email">
+                                <span>Email:</span>
+                            </div>
+                            <p>lordelo.vitor@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-topo">
+                                <img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" alt="Localização">
+                                <span>Localização:</span>
+                            </div>
+                            <p>Brasil - Bahia - Salvador</p>
+                        </div>
+                    </div>
+                    <!-- Redes sociais -->
+                    <div class="contato-card">
+                        <h3>Redes Sociais</h3>
+                        <div class="info-item">
+                            <div class="info-topo">
+                                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+                                <span>Instagram:</span>
+                            </div>
+                            <p><a href="https://instagram.com/lordelovitor" target="_blank">@lordelovitor</a></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-topo">
+                                <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn">
+                                <span>LinkedIn:</span>
+                            </div>
+                            <p><a href="https://linkedin.com/in/lordelovitor" target="_blank">/in/lordelovitor</a></p>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-topo">
+                                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+                                <span>GitHub:</span>
+                            </div>
+                            <p><a href="https://github.com/lordelovitor" target="_blank">github.com/lordelovitor</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script>
+        /* Script de menu mobile + scrollspy + envio do WhatsApp */
+        const botaoHamburguer   = document.querySelector('.botao-hamburguer');
+        const menuMobile        = document.getElementById('menu-mobile');
+        const botaoFecharMobile = document.querySelector('.botao-fechar-mobile');
+        const menuPrincipal     = document.getElementById('menu-principal');
+        const menuMobileLista   = document.getElementById('menu-mobile-lista');
+        const linksSecao        = document.querySelectorAll('a[href^="#"]');
+
+        menuMobileLista.innerHTML = menuPrincipal.innerHTML;
+
+        function abrirMenu() {
+            menuMobile.classList.add('aberto');
+            botaoHamburguer.setAttribute('aria-expanded', 'true');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function fecharMenu() {
+            menuMobile.classList.remove('aberto');
+            botaoHamburguer.setAttribute('aria-expanded', 'false');
+            document.body.style.overflow = '';
+        }
+
+        botaoHamburguer.addEventListener('click', abrirMenu);
+        botaoFecharMobile.addEventListener('click', fecharMenu);
+        menuMobile.addEventListener('click', e => { if (e.target === menuMobile) fecharMenu(); });
+        document.addEventListener('click', e => { if (e.target.closest('#menu-mobile-lista a')) fecharMenu(); });
+
+        const secoes = document.querySelectorAll('section');
+        const observador = new IntersectionObserver((entradas) => {
+            entradas.forEach(entrada => {
+                if (entrada.isIntersecting) {
+                    linksSecao.forEach(l => l.classList.remove('ativo'));
+                    document.querySelectorAll(`a[href="#${entrada.target.id}"]`).forEach(l => l.classList.add('ativo'));
+                }
+            });
+        }, { threshold: 0.4, rootMargin: '0px 0px -60% 0px' });
+        secoes.forEach(secao => observador.observe(secao));
+
+        document.getElementById("form-contato").addEventListener("submit", function(e) {
+            e.preventDefault();
+            const nome = document.getElementById("nome").value;
+            const email = document.getElementById("email").value;
+            const mensagem = document.getElementById("mensagem").value;
+            const numero = "5571999959970";
+            const texto = `Nome: ${nome}%0AEmail: ${email}%0AMensagem: ${mensagem}`;
+            window.open(`https://wa.me/${numero}?text=${texto}`, "_blank");
+        });
+    </script>
+
+</body>
+</html>
